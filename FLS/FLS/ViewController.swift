@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
     @IBAction func click(_ sender: UIButton) {
         NSLog("Hello")
-        let jsCodeLocation = URL(string: "http://192.168.1.104:8081/index.ios.bundle?platform=ios")
+        let jsCodeLocation = URL(string: "http://10.10.17.229:8081/index.ios.bundle?platform=ios")
         let mockData:NSDictionary = ["scores":
             [
                 ["name":"Alex", "value":"42"],

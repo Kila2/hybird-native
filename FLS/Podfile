@@ -6,6 +6,7 @@ target 'FLS' do
   use_frameworks!
 
   # Pods for FLS
+  pod 'BaiduMapKit', '3.2.1'
 	pod 'Parse'
 	pod 'RxSwift',    '~> 3.0'
   pod 'RxCocoa',    '~> 3.0'

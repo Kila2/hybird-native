@@ -1,4 +1,5 @@
 PODS:
+  - BaiduMapKit (3.2.1)
   - Bolts/Tasks (1.7.0)
   - Parse (1.13.0):
     - Bolts/Tasks (~> 1.6)
@@ -18,6 +19,7 @@ PODS:
     - RxSwift (~> 3.0)
 
 DEPENDENCIES:
+  - BaiduMapKit
   - Parse
   - React/Core (from `../node_modules/react-native`)
   - React/RCTNetwork (from `../node_modules/react-native`)
@@ -33,6 +35,7 @@ EXTERNAL SOURCES:
     :path: ../node_modules/react-native
 
 SPEC CHECKSUMS:
+  BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
   React: 2c6b27dcaea89b3d3398df8b598330fd18abbe46
@@ -41,6 +44,6 @@ SPEC CHECKSUMS:
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
   RxTest: 85fdd6f753e8e62635a58d37bbdd3ce7d5abbef3
 
-PODFILE CHECKSUM: df45d90a4e36f09ede84fcf6d70588842155ff5c
+PODFILE CHECKSUM: b7d730cf6802509d4b3a475e3dabc9816be2e791
 
 COCOAPODS: 1.2.0

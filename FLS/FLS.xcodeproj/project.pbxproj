@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		669D5548D969C5C07B3ED94F /* Pods_FLSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABC464B4F75CC8BC64C6887 /* Pods_FLSTests.framework */; };
+		9B21FCE11E5D8F0A001611C8 /* LLUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */; };
+		9B21FCE21E5D8F0A001611C8 /* LLUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B5C439F1E5B335F00D066AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C439E1E5B335F00D066AF /* AppDelegate.swift */; };
 		9B5C43A11E5B335F00D066AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C43A01E5B335F00D066AF /* ViewController.swift */; };
 		9B5C43A41E5B335F00D066AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5C43A21E5B335F00D066AF /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		9B5C43A91E5B335F00D066AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5C43A71E5B335F00D066AF /* LaunchScreen.storyboard */; };
 		9B5C43B41E5B335F00D066AF /* FLSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C43B31E5B335F00D066AF /* FLSTests.swift */; };
 		9B5C43BF1E5B335F00D066AF /* FLSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C43BE1E5B335F00D066AF /* FLSUITests.swift */; };
+		9BBDA83E1E5D967200290B07 /* LLMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDA83D1E5D967200290B07 /* LLMapManager.swift */; };
+		9BBDA8441E5D983A00290B07 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDA8431E5D983A00290B07 /* MapViewController.swift */; };
+		9BBDA8461E5D98A100290B07 /* LLMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDA8451E5D98A100290B07 /* LLMapView.swift */; };
 		A4F0CBA2687C10650FA0E43E /* Pods_FLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1032A3C183E6B80FA9B6FCAF /* Pods_FLS.framework */; };
 		BA273880A1BD435FC644969C /* Pods_FLSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C67A6F78799F059BEE51EB /* Pods_FLSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -36,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9B21FCE31E5D8F0A001611C8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B21FCE21E5D8F0A001611C8 /* LLUIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0C47DE5337DAEB60FC18A8CE /* Pods-FLSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLSUITests/Pods-FLSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1032A3C183E6B80FA9B6FCAF /* Pods_FLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +64,20 @@
 		630DD7C175CE8B67AF48D076 /* Pods-FLSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLSUITests/Pods-FLSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85C67A6F78799F059BEE51EB /* Pods_FLSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABC464B4F75CC8BC64C6887 /* Pods_FLSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B21FCE51E5D91EF001611C8 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = FLS/vender/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		9B21FCE61E5D91EF001611C8 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = FLS/vender/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		9B21FCE71E5D91EF001611C8 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = FLS/vender/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		9B21FCE81E5D91EF001611C8 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = FLS/vender/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		9B21FD021E5D9246001611C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B21FD041E5D9251001611C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B21FD061E5D925B001611C8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9B21FD081E5D9266001611C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B21FD0A1E5D9272001611C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B21FD0C1E5D927C001611C8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9B21FD0E1E5D9286001611C8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9B21FD101E5D9293001611C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9B21FD121E5D929B001611C8 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		9B5C439B1E5B335F00D066AF /* FLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5C439E1E5B335F00D066AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B5C43A01E5B335F00D066AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +91,10 @@
 		9B5C43BA1E5B335F00D066AF /* FLSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5C43BE1E5B335F00D066AF /* FLSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLSUITests.swift; sourceTree = "<group>"; };
 		9B5C43C01E5B335F00D066AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBDA8351E5D94E400290B07 /* FLS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FLS-Bridging-Header.h"; path = "vender/FLS-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BBDA83D1E5D967200290B07 /* LLMapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMapManager.swift; sourceTree = "<group>"; };
+		9BBDA8431E5D983A00290B07 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9BBDA8451E5D98A100290B07 /* LLMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMapView.swift; sourceTree = "<group>"; };
 		F649BBD9D04FB99B8075E2A4 /* Pods-FLS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLS/Pods-FLS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F0CBA2687C10650FA0E43E /* Pods_FLS.framework in Frameworks */,
+				9B21FCE11E5D8F0A001611C8 /* LLUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,11 +130,33 @@
 		35CFA17B1E411757D185AD61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B21FD121E5D929B001611C8 /* libstdc++.6.0.9.tbd */,
+				9B21FD101E5D9293001611C8 /* CoreTelephony.framework */,
+				9B21FD0E1E5D9286001611C8 /* libsqlite3.0.tbd */,
+				9B21FD0C1E5D927C001611C8 /* Security.framework */,
+				9B21FD0A1E5D9272001611C8 /* CoreGraphics.framework */,
+				9B21FD081E5D9266001611C8 /* SystemConfiguration.framework */,
+				9B21FD061E5D925B001611C8 /* OpenGLES.framework */,
+				9B21FD041E5D9251001611C8 /* QuartzCore.framework */,
+				9B21FD021E5D9246001611C8 /* CoreLocation.framework */,
+				9B21FCE51E5D91EF001611C8 /* BaiduMapAPI_Base.framework */,
+				9B21FCE61E5D91EF001611C8 /* BaiduMapAPI_Map.framework */,
+				9B21FCE71E5D91EF001611C8 /* BaiduMapAPI_Search.framework */,
+				9B21FCE81E5D91EF001611C8 /* BaiduMapAPI_Utils.framework */,
 				1032A3C183E6B80FA9B6FCAF /* Pods_FLS.framework */,
 				9ABC464B4F75CC8BC64C6887 /* Pods_FLSTests.framework */,
 				85C67A6F78799F059BEE51EB /* Pods_FLSUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B21FCE41E5D91C3001611C8 /* vender */ = {
+			isa = PBXGroup;
+			children = (
+				9BBDA83C1E5D967200290B07 /* map */,
+				9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */,
+			);
+			path = vender;
 			sourceTree = "<group>";
 		};
 		9B5C43921E5B335F00D066AF = {
@@ -124,8 +184,11 @@
 		9B5C439D1E5B335F00D066AF /* FLS */ = {
 			isa = PBXGroup;
 			children = (
+				9BBDA83F1E5D980400290B07 /* controller */,
+				9B21FCE41E5D91C3001611C8 /* vender */,
 				9B5C439E1E5B335F00D066AF /* AppDelegate.swift */,
 				9B5C43A01E5B335F00D066AF /* ViewController.swift */,
+				9BBDA8351E5D94E400290B07 /* FLS-Bridging-Header.h */,
 				9B5C43A21E5B335F00D066AF /* Main.storyboard */,
 				9B5C43A51E5B335F00D066AF /* Assets.xcassets */,
 				9B5C43A71E5B335F00D066AF /* LaunchScreen.storyboard */,
@@ -150,6 +213,24 @@
 				9B5C43C01E5B335F00D066AF /* Info.plist */,
 			);
 			path = FLSUITests;
+			sourceTree = "<group>";
+		};
+		9BBDA83C1E5D967200290B07 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				9BBDA83D1E5D967200290B07 /* LLMapManager.swift */,
+				9BBDA8451E5D98A100290B07 /* LLMapView.swift */,
+			);
+			name = map;
+			path = ../map;
+			sourceTree = "<group>";
+		};
+		9BBDA83F1E5D980400290B07 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BBDA8431E5D983A00290B07 /* MapViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		CDB9CBC32896C535B57503CE /* Pods */ = {
@@ -178,6 +259,7 @@
 				9B5C43991E5B335F00D066AF /* Resources */,
 				C3115E66017372D14C71E334 /* [CP] Embed Pods Frameworks */,
 				1372B2489F33D1CB17B8009F /* [CP] Copy Pods Resources */,
+				9B21FCE31E5D8F0A001611C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,7 +324,8 @@
 				TargetAttributes = {
 					9B5C439A1E5B335F00D066AF = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4ZZ3RYMYHC;
+						DevelopmentTeam = EGQZRCZ5ZV;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					9B5C43AE1E5B335F00D066AF = {
@@ -449,8 +532,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBDA83E1E5D967200290B07 /* LLMapManager.swift in Sources */,
 				9B5C43A11E5B335F00D066AF /* ViewController.swift in Sources */,
+				9BBDA8461E5D98A100290B07 /* LLMapView.swift in Sources */,
 				9B5C439F1E5B335F00D066AF /* AppDelegate.swift in Sources */,
+				9BBDA8441E5D983A00290B07 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,11 +690,36 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4ZZ3RYMYHC;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EGQZRCZ5ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLS/vender",
+				);
 				INFOPLIST_FILE = FLS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLS/vender/thirdlibs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"React\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = myapp.kila.FLS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLS/vender/FLS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -619,11 +730,35 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4ZZ3RYMYHC;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EGQZRCZ5ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLS/vender",
+				);
 				INFOPLIST_FILE = FLS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLS/vender/thirdlibs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"React\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = myapp.kila.FLS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLS/vender/FLS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
