@@ -10,7 +10,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "08AF574E-2012-4F73-BC88-4DB3FA03CD14",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "E4EE015024ABE3EBF76C16F6B078B8835737BC48" : "LLUIKit\/",
-    "4C9D572DEC241A35DB2D615C8729CB3B071DEC3B" : "hybird-native\/"
+    "4C9D572DEC241A35DB2D615C8729CB3B071DEC3B" : "react-native\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "FLS",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,

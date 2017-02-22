@@ -19,7 +19,7 @@ PODS:
     - RxSwift (~> 3.0)
 
 DEPENDENCIES:
-  - BaiduMapKit
+  - BaiduMapKit (= 3.2.1)
   - Parse
   - React/Core (from `../node_modules/react-native`)
   - React/RCTNetwork (from `../node_modules/react-native`)

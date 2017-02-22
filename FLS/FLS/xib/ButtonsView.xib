@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonsView" customModule="FLS" customModuleProvider="target">
+            <connections>
+                <outletCollection property="buttons" destination="CGO-6X-2ai" collectionClass="NSMutableArray" id="7vc-nH-rh1"/>
+                <outletCollection property="buttons" destination="ohe-xQ-TLh" collectionClass="NSMutableArray" id="Z3X-I4-APG"/>
+                <outletCollection property="buttons" destination="L7M-5c-Nqn" collectionClass="NSMutableArray" id="WFx-lC-XhT"/>
+                <outletCollection property="buttons" destination="MAC-0o-IfZ" collectionClass="NSMutableArray" id="sBY-iu-TN3"/>
+                <outletCollection property="buttons" destination="OEv-Af-Yhm" collectionClass="NSMutableArray" id="kDC-kp-s6W"/>
+                <outletCollection property="buttons" destination="TI5-ZY-WAi" collectionClass="NSMutableArray" id="biE-Ie-b95"/>
+                <outletCollection property="buttons" destination="iau-87-8wL" collectionClass="NSMutableArray" id="eBS-Ug-kJs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="1" id="RQX-po-EAs">
+            <rect key="frame" x="0.0" y="0.0" width="40" height="286"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGO-6X-2ai" customClass="MultiImageButton" customModule="LLUIKit">
+                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.74907735809999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Dyl-gc-Jmg"/>
+                        <constraint firstAttribute="height" constant="40" id="RMb-OT-gM3"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="2VO-A2-Ygd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohe-xQ-TLh" customClass="MultiImageButton" customModule="LLUIKit">
+                    <rect key="frame" x="0.0" y="41" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.74907735809999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1Hi-sS-Tu6"/>
+                        <constraint firstAttribute="width" constant="40" id="JaP-Kc-zFS"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="7YX-gE-3ad"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7M-5c-Nqn" customClass="MultiImageButton" customModule="LLUIKit">
+                    <rect key="frame" x="0.0" y="82" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.74907735809999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="blP-JD-vNL"/>
+                        <constraint firstAttribute="width" constant="40" id="xq6-0q-JYZ"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="G5J-9c-tWH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAC-0o-IfZ" customClass="MultiImageButton" customModule="LLUIKit">
+                    <rect key="frame" x="0.0" y="123" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.74907735809999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="CeV-lo-cr1"/>
+                        <constraint firstAttribute="width" constant="40" id="cWs-Tk-5hA"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="CBM-RW-o1f"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEv-Af-Yhm" customClass="MultiImageButton" customModule="LLUIKit">
+                    <rect key="frame" x="0.0" y="164" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.74907735809999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wJf-Bu-3er"/>
+                        <constraint firstAttribute="width" constant="40" id="yQ3-7n-Euo"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="G4J-JL-nUL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI5-ZY-WAi" customClass="MultiImageButton" customModule="LLUIKit">
+                    <rect key="frame" x="0.0" y="205" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.74907735809999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="SJw-Tj-GlL"/>
+                        <constraint firstAttribute="width" constant="40" id="Zy6-Sq-S2p"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="bbF-I9-P6z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iau-87-8wL" customClass="MultiImageButton" customModule="LLUIKit">
+                    <rect key="frame" x="0.0" y="246" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.74907735809999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="lRT-Hm-Lz3"/>
+                        <constraint firstAttribute="width" constant="40" id="vYf-F3-6WV"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="jeO-ym-NCN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ohe-xQ-TLh" secondAttribute="trailing" id="0o3-Hq-6pE"/>
+                <constraint firstAttribute="trailing" secondItem="MAC-0o-IfZ" secondAttribute="trailing" id="7Jz-vD-bcI"/>
+                <constraint firstItem="OEv-Af-Yhm" firstAttribute="leading" secondItem="RQX-po-EAs" secondAttribute="leading" id="Dwf-gy-eI0"/>
+                <constraint firstItem="CGO-6X-2ai" firstAttribute="leading" secondItem="RQX-po-EAs" secondAttribute="leading" id="GHF-nH-Sx5"/>
+                <constraint firstAttribute="bottom" secondItem="iau-87-8wL" secondAttribute="bottom" id="Kx2-TG-p0V"/>
+                <constraint firstItem="ohe-xQ-TLh" firstAttribute="leading" secondItem="RQX-po-EAs" secondAttribute="leading" id="NRU-Rb-vVs"/>
+                <constraint firstAttribute="trailing" secondItem="TI5-ZY-WAi" secondAttribute="trailing" id="Pw8-v3-M48"/>
+                <constraint firstItem="iau-87-8wL" firstAttribute="leading" secondItem="RQX-po-EAs" secondAttribute="leading" id="Q7x-bI-Q0C"/>
+                <constraint firstItem="TI5-ZY-WAi" firstAttribute="leading" secondItem="RQX-po-EAs" secondAttribute="leading" id="bhC-1I-odg"/>
+                <constraint firstItem="L7M-5c-Nqn" firstAttribute="leading" secondItem="RQX-po-EAs" secondAttribute="leading" id="h6C-0o-2Fj"/>
+                <constraint firstAttribute="trailing" secondItem="L7M-5c-Nqn" secondAttribute="trailing" id="rYL-Gd-hIp"/>
+                <constraint firstAttribute="trailing" secondItem="OEv-Af-Yhm" secondAttribute="trailing" id="szH-G3-6SW"/>
+                <constraint firstItem="CGO-6X-2ai" firstAttribute="top" secondItem="RQX-po-EAs" secondAttribute="top" id="wBE-Xy-qkg"/>
+                <constraint firstItem="MAC-0o-IfZ" firstAttribute="leading" secondItem="RQX-po-EAs" secondAttribute="leading" id="wy5-d7-KVi"/>
+                <constraint firstAttribute="trailing" secondItem="iau-87-8wL" secondAttribute="trailing" id="y67-Qh-zxB"/>
+                <constraint firstAttribute="trailing" secondItem="CGO-6X-2ai" secondAttribute="trailing" id="yku-ZO-3EO"/>
+            </constraints>
+        </stackView>
+    </objects>
+</document>

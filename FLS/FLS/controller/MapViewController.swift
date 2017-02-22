@@ -10,6 +10,7 @@ import UIKit
 
 class MapViewController: UIViewController {
     var map: LLMap?
+    @IBOutlet weak var menu: ButtonsView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,8 +18,40 @@ class MapViewController: UIViewController {
         map = LLMap.initMapView(view: self.view)
         self.view.addSubview(map!.mapView!)
         self.view.sendSubview(toBack: map!.mapView!)
-        
+        menuOnClick()
     }
+    
+    func menuOnClick() {
+        menu.onClick { [weak self](button) in
+            switch(button.tag) {
+            case 1:
+                self?.dismiss(animated: true, completion: nil)
+                print(button.tag)
+                break
+            case 2:
+                print(button.tag)
+                break
+            case 3:
+                print(button.tag)
+                break
+            case 4:
+                print(button.tag)
+                break
+            case 5:
+                print(button.tag)
+                break
+            case 6:
+                print(button.tag)
+                break
+            case 7:
+                print(button.tag)
+                break
+            default:
+                break
+            }
+        }
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         map?.viewWillAppear()
@@ -35,6 +68,9 @@ class MapViewController: UIViewController {
     }
     
     
+    deinit {
+        print("MapViewController deinit")
+    }
     /*
      // MARK: - Navigation
      
@@ -44,5 +80,10 @@ class MapViewController: UIViewController {
      // Pass the selected object to the new view controller.
      }
      */
+    
+}
+
+
+extension MapViewController {
     
 }
