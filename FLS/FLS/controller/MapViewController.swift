@@ -16,6 +16,7 @@ class MapViewController: UIViewController {
         // Do any additional setup after loading the view.
         map = LLMap.initMapView(view: self.view)
         self.view.addSubview(map!.mapView!)
+        self.view.sendSubview(toBack: map!.mapView!)
         
     }
     override func viewWillAppear(_ animated: Bool) {

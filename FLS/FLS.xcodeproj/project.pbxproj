@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		669D5548D969C5C07B3ED94F /* Pods_FLSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABC464B4F75CC8BC64C6887 /* Pods_FLSTests.framework */; };
-		9B21FCE11E5D8F0A001611C8 /* LLUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */; };
-		9B21FCE21E5D8F0A001611C8 /* LLUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B5C439F1E5B335F00D066AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C439E1E5B335F00D066AF /* AppDelegate.swift */; };
 		9B5C43A11E5B335F00D066AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C43A01E5B335F00D066AF /* ViewController.swift */; };
 		9B5C43A41E5B335F00D066AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5C43A21E5B335F00D066AF /* Main.storyboard */; };
-		9B5C43A61E5B335F00D066AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5C43A51E5B335F00D066AF /* Assets.xcassets */; };
 		9B5C43A91E5B335F00D066AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5C43A71E5B335F00D066AF /* LaunchScreen.storyboard */; };
 		9B5C43B41E5B335F00D066AF /* FLSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C43B31E5B335F00D066AF /* FLSTests.swift */; };
 		9B5C43BF1E5B335F00D066AF /* FLSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C43BE1E5B335F00D066AF /* FLSUITests.swift */; };
 		9BBDA83E1E5D967200290B07 /* LLMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDA83D1E5D967200290B07 /* LLMapManager.swift */; };
 		9BBDA8441E5D983A00290B07 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDA8431E5D983A00290B07 /* MapViewController.swift */; };
 		9BBDA8461E5D98A100290B07 /* LLMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDA8451E5D98A100290B07 /* LLMapView.swift */; };
+		9BBDA8511E5DA41600290B07 /* LLUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBDA8501E5DA41600290B07 /* LLUIKit.framework */; };
+		9BBDA8571E5DA55E00290B07 /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBDA8561E5DA55E00290B07 /* asset.xcassets */; };
+		9BBDA85B1E5DA5CD00290B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBDA85A1E5DA5CD00290B07 /* Assets.xcassets */; };
 		A4F0CBA2687C10650FA0E43E /* Pods_FLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1032A3C183E6B80FA9B6FCAF /* Pods_FLS.framework */; };
 		BA273880A1BD435FC644969C /* Pods_FLSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C67A6F78799F059BEE51EB /* Pods_FLSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -41,20 +41,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9B21FCE31E5D8F0A001611C8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9B21FCE21E5D8F0A001611C8 /* LLUIKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0C47DE5337DAEB60FC18A8CE /* Pods-FLSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLSUITests/Pods-FLSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1032A3C183E6B80FA9B6FCAF /* Pods_FLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +50,6 @@
 		630DD7C175CE8B67AF48D076 /* Pods-FLSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLSUITests/Pods-FLSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85C67A6F78799F059BEE51EB /* Pods_FLSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABC464B4F75CC8BC64C6887 /* Pods_FLSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B21FCE51E5D91EF001611C8 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = FLS/vender/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		9B21FCE61E5D91EF001611C8 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = FLS/vender/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
 		9B21FCE71E5D91EF001611C8 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = FLS/vender/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
@@ -82,7 +67,6 @@
 		9B5C439E1E5B335F00D066AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B5C43A01E5B335F00D066AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B5C43A31E5B335F00D066AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B5C43A51E5B335F00D066AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B5C43A81E5B335F00D066AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B5C43AA1E5B335F00D066AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B5C43AF1E5B335F00D066AF /* FLSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +79,9 @@
 		9BBDA83D1E5D967200290B07 /* LLMapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMapManager.swift; sourceTree = "<group>"; };
 		9BBDA8431E5D983A00290B07 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9BBDA8451E5D98A100290B07 /* LLMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMapView.swift; sourceTree = "<group>"; };
+		9BBDA8501E5DA41600290B07 /* LLUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LLUIKit.framework; path = "../../LLUIKit/build/Debug-iphoneos/LLUIKit.framework"; sourceTree = "<group>"; };
+		9BBDA8561E5DA55E00290B07 /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = asset.xcassets; path = ../../../../LLUIKit/LLUIKit/asset.xcassets; sourceTree = "<group>"; };
+		9BBDA85A1E5DA5CD00290B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F649BBD9D04FB99B8075E2A4 /* Pods-FLS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLS/Pods-FLS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,8 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBDA8511E5DA41600290B07 /* LLUIKit.framework in Frameworks */,
 				A4F0CBA2687C10650FA0E43E /* Pods_FLS.framework in Frameworks */,
-				9B21FCE11E5D8F0A001611C8 /* LLUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +117,7 @@
 		35CFA17B1E411757D185AD61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BBDA8501E5DA41600290B07 /* LLUIKit.framework */,
 				9B21FD121E5D929B001611C8 /* libstdc++.6.0.9.tbd */,
 				9B21FD101E5D9293001611C8 /* CoreTelephony.framework */,
 				9B21FD0E1E5D9286001611C8 /* libsqlite3.0.tbd */,
@@ -154,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				9BBDA83C1E5D967200290B07 /* map */,
-				9B21FCE01E5D8F0A001611C8 /* LLUIKit.framework */,
 			);
 			path = vender;
 			sourceTree = "<group>";
@@ -184,13 +171,13 @@
 		9B5C439D1E5B335F00D066AF /* FLS */ = {
 			isa = PBXGroup;
 			children = (
+				9BBDA8591E5DA5BB00290B07 /* resources */,
 				9BBDA83F1E5D980400290B07 /* controller */,
 				9B21FCE41E5D91C3001611C8 /* vender */,
 				9B5C439E1E5B335F00D066AF /* AppDelegate.swift */,
 				9B5C43A01E5B335F00D066AF /* ViewController.swift */,
 				9BBDA8351E5D94E400290B07 /* FLS-Bridging-Header.h */,
 				9B5C43A21E5B335F00D066AF /* Main.storyboard */,
-				9B5C43A51E5B335F00D066AF /* Assets.xcassets */,
 				9B5C43A71E5B335F00D066AF /* LaunchScreen.storyboard */,
 				9B5C43AA1E5B335F00D066AF /* Info.plist */,
 			);
@@ -233,6 +220,15 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		9BBDA8591E5DA5BB00290B07 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BBDA8561E5DA55E00290B07 /* asset.xcassets */,
+				9BBDA85A1E5DA5CD00290B07 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		CDB9CBC32896C535B57503CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,7 +255,6 @@
 				9B5C43991E5B335F00D066AF /* Resources */,
 				C3115E66017372D14C71E334 /* [CP] Embed Pods Frameworks */,
 				1372B2489F33D1CB17B8009F /* [CP] Copy Pods Resources */,
-				9B21FCE31E5D8F0A001611C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,8 +362,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBDA8571E5DA55E00290B07 /* asset.xcassets in Resources */,
 				9B5C43A91E5B335F00D066AF /* LaunchScreen.storyboard in Resources */,
-				9B5C43A61E5B335F00D066AF /* Assets.xcassets in Resources */,
+				9BBDA85B1E5DA5CD00290B07 /* Assets.xcassets in Resources */,
 				9B5C43A41E5B335F00D066AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,7 +684,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F649BBD9D04FB99B8075E2A4 /* Pods-FLS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EGQZRCZ5ZV;
@@ -728,7 +723,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5933BBDE697D4D77B5A31BE7 /* Pods-FLS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EGQZRCZ5ZV;
