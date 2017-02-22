@@ -2,14 +2,45 @@ PODS:
   - Bolts/Tasks (1.7.0)
   - Parse (1.13.0):
     - Bolts/Tasks (~> 1.6)
+  - React/Core (0.38.1)
+  - React/RCTNetwork (0.38.1):
+    - React/Core
+  - React/RCTText (0.38.1):
+    - React/Core
+  - React/RCTWebSocket (0.38.1):
+    - React/Core
+  - RxBlocking (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - RxTest (3.2.0):
+    - RxSwift (~> 3.0)
 
 DEPENDENCIES:
   - Parse
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RxBlocking (~> 3.0)
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - RxTest (~> 3.0)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
 
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  React: 2c6b27dcaea89b3d3398df8b598330fd18abbe46
+  RxBlocking: ec8ed471ba77b4fb98a2d60f1f8419b0b46eaa23
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  RxTest: 85fdd6f753e8e62635a58d37bbdd3ce7d5abbef3
 
-PODFILE CHECKSUM: ab9b8bf96dd6b8503805953ae12cd2e4679435ce
+PODFILE CHECKSUM: df45d90a4e36f09ede84fcf6d70588842155ff5c
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.2.0
