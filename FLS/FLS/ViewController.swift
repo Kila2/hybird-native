@@ -8,12 +8,34 @@
 
 import UIKit
 import React
+import Parse
+import ParseLiveQuery
+
+class People: PFObject, PFSubclassing {
+    @NSManaged var age: PFUser?
+    @NSManaged var authorName: String?
+    
+    class func parseClassName() -> String {
+        return "People"
+    }
+}
+
+
+
+let liveQueryClient = ParseLiveQuery.Client()
 
 class ViewController: UIViewController {
-
+    var subscription: Subscription<People>?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //People.registerSubclass()
+        let myQuery = (PFQuery.init(className: "People").whereKey("name", equalTo: "a")) as! PFQuery<People>
+        subscription = liveQueryClient
+        .subscribe(myQuery)
+        .handle(Event.updated) { (query, message) in
+            print(message)
+        }
     }
 
     override func didReceiveMemoryWarning() {

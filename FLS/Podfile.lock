@@ -1,8 +1,13 @@
 PODS:
   - BaiduMapKit (3.2.1)
-  - Bolts/Tasks (1.7.0)
-  - Parse (1.13.0):
-    - Bolts/Tasks (~> 1.6)
+  - Bolts-Swift (1.3.0)
+  - Bolts/Tasks (1.8.4)
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - ParseLiveQuery (2.0.0):
+    - Bolts-Swift (~> 1.3)
+    - Parse (~> 1.14.2)
+    - Starscream (= 2.0.3)
   - React/Core (0.38.1)
   - React/RCTNetwork (0.38.1):
     - React/Core
@@ -17,10 +22,12 @@ PODS:
   - RxSwift (3.2.0)
   - RxTest (3.2.0):
     - RxSwift (~> 3.0)
+  - Starscream (2.0.3)
 
 DEPENDENCIES:
   - BaiduMapKit (= 3.2.1)
   - Parse
+  - ParseLiveQuery
   - React/Core (from `../node_modules/react-native`)
   - React/RCTNetwork (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
@@ -36,14 +43,17 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
-  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
-  Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Bolts-Swift: fa98d1b59fc1acea9b21a21306dcdca1c85e3737
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  ParseLiveQuery: 38fb42e4b8611ecfcb199d47e48aeaf6879f8560
   React: 2c6b27dcaea89b3d3398df8b598330fd18abbe46
   RxBlocking: ec8ed471ba77b4fb98a2d60f1f8419b0b46eaa23
   RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
   RxTest: 85fdd6f753e8e62635a58d37bbdd3ce7d5abbef3
+  Starscream: 3fdd5c277e57cca6b5c406d274e3f34a7c88f2ce
 
-PODFILE CHECKSUM: b7d730cf6802509d4b3a475e3dabc9816be2e791
+PODFILE CHECKSUM: d46f11a3dd55c736e5836593d908830c1b646458
 
 COCOAPODS: 1.2.0

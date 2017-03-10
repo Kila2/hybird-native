@@ -8,6 +8,7 @@ target 'FLS' do
   # Pods for FLS
   pod 'BaiduMapKit', '3.2.1'
 	pod 'Parse'
+  pod 'ParseLiveQuery'
 	pod 'RxSwift',    '~> 3.0'
   pod 'RxCocoa',    '~> 3.0'
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
